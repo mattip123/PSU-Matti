@@ -1,3 +1,2 @@
 (fp_lib_table
-  (lib (name Diode_THT)(type KiCad)(uri ${KIPRJMOD}/Diode_THT.pretty)(options "")(descr ""))
 )
