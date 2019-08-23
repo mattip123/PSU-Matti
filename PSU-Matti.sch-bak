@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:PSU-Matti-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -27,6 +26,8 @@ F 3 "http://www.vishay.com/docs/88656/kbu4.pdf" H 2150 2750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2450 2750 2450 3900
+Wire Wire Line
+	1850 2750 1600 2750
 Text Label 1350 2750 0    50   ~ 0
 AC1.15V
 Text Label 1350 4000 0    50   ~ 0
@@ -142,7 +143,7 @@ F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5850 5350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2150 1750 2150 2100
+	2150 1750 2150 2450
 Wire Wire Line
 	2150 1750 3150 1750
 Wire Wire Line
@@ -163,7 +164,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 4200 4750 4700
 Wire Wire Line
-	2150 3050 2150 4200
+	2150 3050 2150 4700
 Wire Wire Line
 	2150 4700 3150 4700
 Connection ~ 3150 4700
@@ -577,34 +578,4 @@ Wire Wire Line
 Connection ~ 9550 3300
 Wire Wire Line
 	9550 3300 9550 3350
-Wire Wire Line
-	1600 2750 1850 2750
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 5D5F70FB
-P 2150 2100
-F 0 "#FLG0101" H 2150 2175 50  0001 C CNN
-F 1 "PWR_FLAG" V 2150 2227 50  0000 L CNN
-F 2 "" H 2150 2100 50  0001 C CNN
-F 3 "~" H 2150 2100 50  0001 C CNN
-	1    2150 2100
-	0    -1   -1   0   
-$EndComp
-Connection ~ 2150 2100
-Wire Wire Line
-	2150 2100 2150 2450
-$Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 5D5F848F
-P 2150 4200
-F 0 "#FLG0102" H 2150 4275 50  0001 C CNN
-F 1 "PWR_FLAG" V 2150 4327 50  0000 L CNN
-F 2 "" H 2150 4200 50  0001 C CNN
-F 3 "~" H 2150 4200 50  0001 C CNN
-	1    2150 4200
-	0    -1   -1   0   
-$EndComp
-Connection ~ 2150 4200
-Wire Wire Line
-	2150 4200 2150 4700
 $EndSCHEMATC
