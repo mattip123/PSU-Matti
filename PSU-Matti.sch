@@ -520,17 +520,6 @@ Wire Wire Line
 Connection ~ 1600 3300
 Wire Wire Line
 	1600 3300 1600 3350
-$Comp
-L Connector:Screw_Terminal_01x04 J2
-U 1 1 5D64804E
-P 8800 3250
-F 0 "J2" H 8720 2825 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" H 8720 2916 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00234_1x04_P5.08mm_Horizontal" H 8800 3250 50  0001 C CNN
-F 3 "~" H 8800 3250 50  0001 C CNN
-	1    8800 3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8600 3250 8600 3300
 Connection ~ 8600 3300
@@ -539,21 +528,17 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x04 J3
 U 1 1 5D650DDC
-P 9750 3250
-F 0 "J3" H 9670 2825 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" H 9670 2916 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00234_1x04_P5.08mm_Horizontal" H 9750 3250 50  0001 C CNN
-F 3 "~" H 9750 3250 50  0001 C CNN
-	1    9750 3250
-	1    0    0    -1  
+P 9750 3350
+F 0 "J3" H 9670 2925 50  0000 C CNN
+F 1 "Screw_Terminal_01x04" H 9670 3016 50  0000 C CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00234_1x04_P5.08mm_Horizontal" H 9750 3350 50  0001 C CNN
+F 3 "~" H 9750 3350 50  0001 C CNN
+	1    9750 3350
+	1    0    0    1   
 $EndComp
-Wire Wire Line
-	9550 3150 9550 2900
 Wire Wire Line
 	9550 2900 8600 2900
 Connection ~ 8600 2900
-Wire Wire Line
-	8600 2900 8600 3150
 Wire Wire Line
 	9550 3450 9550 3800
 Wire Wire Line
@@ -607,4 +592,19 @@ $EndComp
 Connection ~ 2150 4200
 Wire Wire Line
 	2150 4200 2150 4700
+$Comp
+L Connector:Screw_Terminal_01x04 J2
+U 1 1 5D64804E
+P 8800 3350
+F 0 "J2" H 8720 2925 50  0000 C CNN
+F 1 "Screw_Terminal_01x04" H 8720 3016 50  0000 C CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00234_1x04_P5.08mm_Horizontal" H 8800 3350 50  0001 C CNN
+F 3 "~" H 8800 3350 50  0001 C CNN
+	1    8800 3350
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8600 2900 8600 3150
+Wire Wire Line
+	9550 2900 9550 3150
 $EndSCHEMATC
