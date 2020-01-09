@@ -6,4 +6,4 @@ Using 2x15V 80VA toroidial outside the pcb.
 
 Big heatsinks on both sides.
 
-Status: Not built and tested!
+Status: Works fine. No ripple, but I have not measured current yet.
