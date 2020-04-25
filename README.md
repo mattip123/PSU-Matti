@@ -8,4 +8,4 @@ Big heatsinks on both sides.
 
 Status: Works fine. Measured 2 mV ripple when at 1.5 A. Measuerd with effect resistors at 8 ohms for 12 V and 8 ohms for -12 V.
 
-
+![PSU](./psu.jpg)
